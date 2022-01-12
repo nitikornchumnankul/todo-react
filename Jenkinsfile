@@ -11,6 +11,7 @@ pipeline {
     stage('install') {
       steps {
         sh 'npm install'
+        sh 'cd todos'
       }
     }
 
