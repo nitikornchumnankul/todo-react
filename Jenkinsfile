@@ -16,7 +16,6 @@ pipeline {
 
     stage('build') {
       steps {
-        build 'job'
         sh 'npm run build'
       }
     }
