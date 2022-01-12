@@ -11,8 +11,8 @@ pipeline {
     stage('install') {
       steps {
         sh 'cd todos'
-        sh 'npm install'
         sh 'pwd'
+        sh 'npm install'
       }
     }
 
