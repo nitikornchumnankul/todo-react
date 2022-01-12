@@ -6,7 +6,7 @@ pipeline {
         echo 'The next stage to npm install'
         sh 'node -v'
         sh 'npm install'
-
+        sh 'echo $PATH'
       }
     }
 
