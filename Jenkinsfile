@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'The next stage to npm install'
         sh 'apt install npm'
-        sh 'npm install'
+        sh 'bat npm install'
       }
     }
 
