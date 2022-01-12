@@ -1,10 +1,12 @@
 pipeline {
   agent any
   stages {
+
     stage('Check Stages') {
       steps {
         echo 'The next stage to npm install'
-        sh 'echo $PATH'
+        cd "%WORKSPACE%"
+        sh 'pwd'
       }
     }
 
